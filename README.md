@@ -10,6 +10,7 @@ Si le terme de *désert médical* est aujourd’hui omniprésent dans le débat 
 
 Si les déserts médicaux n’existent pas à proprement parler d’un point de vue administratif, ils n’en constituent pas moins une réalité du terrain. En effet, toujours selon ce même rapport du Sénat, plus d’un Français sur dix n’a pas de médecin traitant, alors même que le nombre de médecins est en constante augmentation.
 
+#### Problématique
 
 ### Objectif et méthodologie
 
@@ -18,9 +19,7 @@ Notre approche se scinde en trois phases
   2) Statistique et étude descriptive
   3) Modélisation
 
-
 ## 1) Récupération des données
-
 
 Pour mener cette étude, nous avons eu recours à différentes bases de données, présentées ici par ordre d'importance :
 
@@ -32,7 +31,27 @@ Pour mener cette étude, nous avons eu recours à différentes bases de données
 
 4) *Professionnels de santé libéraux : patientèle par territoire (département, région)*[5](#5), publiée par la caisse nationale d'assurance maladie. Elle apporte le nombre moyen de patient annuel par médecin, en fonction du département d'exercice, entre 2012 et 2024.
 
+### Sur l'accessibilité potentielle localisée ou APL :
 
+*L’indicateur d’accessibilité potentielle localisée (APL)*, développé par la DREES et l’Irdes, permet de mesurer l’accès aux soins de premier recours à échelle locale. Il a été conçu pour mesurer davantage la complexité de l'accès aux soins en France que les indicateurs classiques, comme la distance du médecin le plus proche ou la densité médicale à l’échelle d’un département.
+
+L’APL utilise des données de l’Assurance maladie et de l’Insee. Calculé au niveau de chaque commune, il prend en compte à la fois les médecins disponibles localement et ceux des communes voisines, incluant une pondération par la population concernée.
+
+Processus de calcul :
+
+Pour chaque commune $j$ disposant de médecins, on définit un ratio :
+
+$$
+R_j = \frac{m_j}{\sum_{i \mid d_{ij} \le d_0} p_i}
+$$
+
+où :
+- $m_j$ est l’offre de médecins dans la commune $j$ (en ETP),
+- $p_i$ est la population de la commune $i$, pondérée par l’âge,
+- $d_{ij}$ est la distance entre les communes $i$ et $j$,
+- $d_0$ est le seuil de distance.
+
+Cet indicateur met ainsi en évidence des différences d’accès aux soins qui ne sont pas visibles avec des indicateurs calculés sur de grandes zones. Il tient aussi compte de l’activité des médecins et de l’âge de la population, afin de mieux refléter les besoins en soins.
 
 ## 2) Première étude descriptive
 
@@ -43,6 +62,10 @@ Pour mener cette étude, nous avons eu recours à différentes bases de données
 
 ## Conclusion
 
+
+
+
+#### Références
 
 <a id="1"></a>
 [1] [Sénat, *Rapport sur l’accès aux soins*, 29 mars 2022.](https://www.senat.fr/rap/r21-589/r21-589.html)  
