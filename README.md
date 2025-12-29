@@ -23,14 +23,14 @@ Notre approche se scinde en trois phases
 
 
 Pour mener cette étude, nous avons eu recours à différentes bases de données, présentées ici par ordre d'importance :
-  
+
 1) *La démographie des professionnels de santé depuis 2012*[2](#2), publiée par la DREES, construite à partir d'une extraction du RPPS (Répertoire Partagé des Professionnels de Santé). En effet, la profession de médecin est une profession réglementée, ce qui signifie que tous les praticiens exerçant en France doivent être enregistrés auprès du conseil de l’Ordre. Elle présente des données de 2012 à 2025.  
 
 2) *Statistiques locales*[3](#3), publiée par l'Insee. Cette carte interactive met à disposition de nombreux indicateurs à l’échelle régionale et infra-communale pour l’année 2025, tels que le nombre de médecins par commune ou la densité des foyers familiaux. Les fichiers *Indicateur_Departementale.xlsx* et *Indicateurs_communale.csv* correspondent à des extractions de cette carte interactive.  
 
-3)*L'accessibilité potentielle localisée (APL)*[4](#4), publiée par la DREES. L’APL est un indicateur local, disponible au niveau de chaque commune, qui tient compte de l’offre et de la demande issues des communes environnantes. On le définira plus en détail ultérieurement.  
+3) *L'accessibilité potentielle localisée (APL)*[4](#4), publiée par la DREES. L’APL est un indicateur local, disponible au niveau de chaque commune, qui tient compte de l’offre et de la demande issues des communes environnantes. On le définira plus en détail ultérieurement.  
 
-4)*Professionnels de santé libéraux : patientèle par territoire (département, région)*[5](#5), publiée par la caisse nationale d'assurance maladie. Elle apporte le nombre moyen de patient annuel par médecin, en fonction du département d'exercice, entre 2012 et 2024.
+4) *Professionnels de santé libéraux : patientèle par territoire (département, région)*[5](#5), publiée par la caisse nationale d'assurance maladie. Elle apporte le nombre moyen de patient annuel par médecin, en fonction du département d'exercice, entre 2012 et 2024.
 
 
 
