@@ -1,4 +1,4 @@
-# Etude de l'offre médicale et de le présence de *désert médicaux* en France
+# *Désert médicaux* en France : Répartition & Déterminants
 
 *Ce projet est réalisé dans le cadre du cours de Python pour la Data Science donné par Lino Galiana à l'ENSAE Paris en 2025.* 
 
@@ -72,7 +72,7 @@ Cet indicateur met ainsi en évidence des différences d’accès aux soins qui 
 
 Ce projet a permis de mettre en évidence les inégalités territoriales d’accès aux soins à partir d’analyses statistiques descriptives et de modèles de régression. L’utilisation de la régression linéaire et du Lasso a permis d’identifier et de hiérarchiser les principaux facteurs associés aux situations de déserts médicaux, offrant ainsi une base quantitative pour l’analyse de ces déséquilibres territoriaux.
 
-Bien que nous soyons tous deux fiers du travail réalisé, ce projet demeure perfectible. De nettes améliorations peuvent être apportées par l’accès à certaines données, en particulier les données communales détaillées et les données de remboursement de l’Assurance maladie, qu’elles concernent les médecins ou les patients. Par ailleurs, nous ne sommes pas parvenus à dépasser nos limites dans le calcul de certains indicateurs, comme l’accessibilité potentielle localisée (APL).
+Bien que nous soyons tous deux fiers du travail réalisé, ce projet demeure perfectible. De nettes améliorations peuvent être apportées par l’accès à certaines données, en particulier les données communales détaillées et les données de remboursement de l’Assurance maladie, qu’elles concernent les médecins ou les patients. Ainsi, le projet est, en l'état, davantage un constat de l'état de l'art du système de soins en France, qu'une analyse déterministe de la répartition et des déterminants des déserts médicaux en France (ce qui pour un projet étudiant nous satisfait tout à fait). Par ailleurs, nous ne sommes pas parvenus à dépasser nos limites dans le calcul de certains indicateurs, comme l’accessibilité potentielle localisée (APL).
 
 #### Références
 
