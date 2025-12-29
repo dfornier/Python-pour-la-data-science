@@ -10,16 +10,22 @@ Si le terme de *désert médical* est aujourd’hui omniprésent dans le débat 
 
 Si les déserts médicaux n’existent pas à proprement parler d’un point de vue administratif, ils n’en constituent pas moins une réalité du terrain. En effet, toujours selon ce même rapport du Sénat, plus d’un Français sur dix n’a pas de médecin traitant, alors même que le nombre de médecins est en constante augmentation.
 
+Face à ces constats, il apparaît nécessaire de dépasser le simple diagnostic des inégalités d’accès aux soins pour s’intéresser aux facteurs territoriaux sous-jacents. En particulier, comprendre les déterminants de l’implantation des médecins permet d’éclairer les mécanismes à l’origine des situations de faible accessibilité observées dans certaines communes.
+
 #### Problématique
+
+Comment les caractéristiques des territoires déterminent-elles le choix d’implantation des médecins, et dans quelle mesure participent-elles aux situations de faible accessibilité aux soins dans certaines communes ?
 
 ### Objectif et méthodologie
 
+Notre objectif est de mettre en évidence l'existence de ces *déserts médicaux*, d'analyser les déterminants de l'installation des médecins et de comprendre les raisons de ces situations de faible accessibilité aux soins.
+
 Notre approche se scinde en trois phases
   1) Récupération des données
-  2) Statistique et étude descriptive
-  3) Modélisation
+  2) Statistique et étude descriptive, pour la mise en évidence des déserts
+  3) Modélisation, pour l'interprétation des causes de l'apparition des déserts
 
-## 1) Récupération des données
+## Base de données
 
 Pour mener cette étude, nous avons eu recours à différentes bases de données, présentées ici par ordre d'importance :
 
@@ -60,12 +66,6 @@ $$
 où $w(d_{ij})$ est une pondération liée à la distance.
 
 Cet indicateur met ainsi en évidence des différences d’accès aux soins qui ne sont pas visibles avec des indicateurs calculés à grandes échelles. Il tient aussi compte de l’activité des médecins et de la densité de population.
-
-## 2) Première étude descriptive
-
-
-
-## 3) Modélisation
 
 
 ## Conclusion
