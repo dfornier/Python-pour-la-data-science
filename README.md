@@ -37,7 +37,7 @@ Pour mener cette étude, nous avons eu recours à différentes bases de données
 
 L’APL utilise des données de l’Assurance maladie et de l’Insee. Calculé au niveau de chaque commune, il prend en compte à la fois les médecins disponibles localement et ceux des communes voisines, incluant une pondération par la population concernée.
 
-##### Processus de calcul (selon Irdes, [5](#5)):
+#### Processus de calcul (selon Irdes, [5](#5)):
 
 Pour chaque commune $j$ disposant de médecins, on définit un ratio :
 
@@ -59,7 +59,7 @@ $$
 
 où $w(d_{ij})$ est une pondération liée à la distance.
 
-Cet indicateur met ainsi en évidence des différences d’accès aux soins qui ne sont pas visibles avec des indicateurs calculés sur de grandes zones. Il tient aussi compte de l’activité des médecins et de la densité de population.
+Cet indicateur met ainsi en évidence des différences d’accès aux soins qui ne sont pas visibles avec des indicateurs calculés à grandes échelles. Il tient aussi compte de l’activité des médecins et de la densité de population.
 
 ## 2) Première étude descriptive
 
@@ -70,8 +70,9 @@ Cet indicateur met ainsi en évidence des différences d’accès aux soins qui 
 
 ## Conclusion
 
-https://www.irdes.fr/Publications/2012/Qes174.pdf
+Ce projet a permis de mettre en évidence les inégalités territoriales d’accès aux soins à partir d’analyses statistiques descriptives et de modèles de régression. L’utilisation de la régression linéaire et du Lasso a permis d’identifier et de hiérarchiser les principaux facteurs associés aux situations de déserts médicaux, offrant ainsi une base quantitative pour l’analyse de ces déséquilibres territoriaux.
 
+Bien que nous soyons tous deux fiers du travail réalisé, ce projet demeure perfectible. De nette amélioration peuvent être apporter par l’accès à certaines données, en particulier les données communales détaillées et les données de remboursement de l’Assurance maladie, qu’elles concernent les médecins ou les patients. Par ailleurs, nous ne sommes pas parvenus à dépasser nos limites dans le calcul de certains indicateurs, comme l’accessibilité potentielle localisée (APL).
 
 #### Références
 
@@ -82,7 +83,7 @@ https://www.irdes.fr/Publications/2012/Qes174.pdf
 <a id="3"></a>
 [3] [INSEE, *Statistiques locales*](https://statistiques-locales.insee.fr/#c=indicator)  
 <a id="4"></a>
-[4] [DREES, **L'accessibilité potentielle localisée (APL)*](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/530_l-accessibilite-potentielle-localisee-apl/information/)  
+[4] [DREES, *L'accessibilité potentielle localisée (APL)*](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/530_l-accessibilite-potentielle-localisee-apl/information/)  
 <a id="5"></a>
 [5] [Caisse nationale de l'Assurance Maladie (Cnam), *Rapport sur l’accès aux soins*, 15 Décembre 2025.](https://www.data.gouv.fr/datasets/professionnels-de-sante-liberaux-patientele-par-territoire-departement-region)  
 <a id="6"></a>
