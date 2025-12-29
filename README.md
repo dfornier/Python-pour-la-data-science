@@ -33,7 +33,7 @@ Pour mener cette étude, nous avons eu recours à différentes bases de données
 
 2) *Statistiques locales* [3](#3), publiée par l'Insee. Cette carte interactive met à disposition de nombreux indicateurs à l’échelle régionale et infra-communale pour l’année 2025, tels que le nombre de médecins par commune ou la densité des foyers familiaux. Les fichiers *Indicateur_Departementale.xlsx* et *Indicateurs_communale.csv* correspondent à des extractions de cette carte interactive.  
 
-3) *L'accessibilité potentielle localisée (APL)* [4](#4), publiée par la DREES. L’APL est un indicateur local, disponible au niveau de chaque commune, qui tient compte de l’offre et de la demande issues des communes environnantes. On le définira plus en détail ultérieurement.  
+3) *L'accessibilité potentielle localisée (APL)* [4](#4), publiée par la DREES. L’APL est un indicateur local, disponible au niveau de chaque commune, qui tient compte de l’offre et de la demande issues des communes environnantes. On le définira plus en détail ultérieurement. La base que nous avons sélectionnées traite de l'APL des médecins généralistes libéraux.
 
 4) *Professionnels de santé libéraux : patientèle par territoire (département, région)* [5](#5), publiée par la caisse nationale d'assurance maladie. Elle apporte le nombre moyen de patient annuel par médecin, en fonction du département d'exercice, entre 2012 et 2024.
 
@@ -72,7 +72,7 @@ Cet indicateur met ainsi en évidence des différences d’accès aux soins qui 
 
 Ce projet a permis de mettre en évidence les inégalités territoriales d’accès aux soins à partir d’analyses statistiques descriptives et de modèles de régression. L’utilisation de la régression linéaire et du Lasso a permis d’identifier et de hiérarchiser les principaux facteurs associés aux situations de déserts médicaux, offrant ainsi une base quantitative pour l’analyse de ces déséquilibres territoriaux.
 
-Bien que nous soyons tous deux fiers du travail réalisé, ce projet demeure perfectible. De nette amélioration peuvent être apporter par l’accès à certaines données, en particulier les données communales détaillées et les données de remboursement de l’Assurance maladie, qu’elles concernent les médecins ou les patients. Par ailleurs, nous ne sommes pas parvenus à dépasser nos limites dans le calcul de certains indicateurs, comme l’accessibilité potentielle localisée (APL).
+Bien que nous soyons tous deux fiers du travail réalisé, ce projet demeure perfectible. De nettes améliorations peuvent être apportées par l’accès à certaines données, en particulier les données communales détaillées et les données de remboursement de l’Assurance maladie, qu’elles concernent les médecins ou les patients. Par ailleurs, nous ne sommes pas parvenus à dépasser nos limites dans le calcul de certains indicateurs, comme l’accessibilité potentielle localisée (APL).
 
 #### Références
 
