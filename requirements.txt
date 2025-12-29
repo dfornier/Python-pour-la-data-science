@@ -1,0 +1,10 @@
+openpyxl
+pandas
+geopandas
+numpy
+matplotlib
+seaborn
+cartiflette
+mapclassify
+plotly
+scikit-learn
