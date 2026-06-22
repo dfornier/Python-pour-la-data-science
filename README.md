@@ -2,6 +2,8 @@
 
 *Ce projet est réalisé dans le cadre du cours de Python pour la Data Science donné par Lino Galiana à l'ENSAE Paris en 2025.* 
 
+test
+
 ### Introduction 
 
 Un récent rapport du Sénat [1](#1) (29 mars 2022) met en évidence une dégradation très alarmante de l’accès aux soins en France. Chaque année, près de 1,6 million de Français renoncent à des soins médicaux, tandis qu’environ un tiers de la population vivrait dans un « désert médical ».
